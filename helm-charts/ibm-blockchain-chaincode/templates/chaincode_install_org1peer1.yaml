@@ -43,7 +43,7 @@ spec:
     - name: CORE_PEER_LOCALMSPID
       value: Org1MSP
     - name: CORE_PEER_ADDRESS
-      value: {{ template "ibm-blockchain-network.name" . }}-org1peer1:5010
+      value: ibm-blockchain-network-org1peer1:5010
     - name: GODEBUG
       value: "netdns=go"
     volumeMounts:
